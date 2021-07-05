@@ -1,0 +1,20 @@
+List of files + description
+
+        ch_opt.f90           sets the absoption, scattering and g values for simulaiton.
+        gridset.f90          sets up the optical grid along with refraction grid
+        Makefile             Makefile provides rules to compile the program
+        photon_vars.f90      contains the various photons variables
+        stokes.f90           calculates the angle of scattering
+        vector_class.f90     a "class" for the vector type
+        constants.f90        contains the various constants used in the simulation
+        iarray.f90           contains the arrays variables
+        mcpolar.f90          main program
+        ran2.f               random number generator, from numerical recipes
+        subs.f90             inits arrays and directory paths 
+        writer.f90           writes out results
+        inttau2.f90          moves the photon a randomly sampled optical distance. also contains fresnel and peeling off routines
+        opt_prop.f90         tracks optical properties of the system
+        sourceph.f90         generates initial photon postion
+        utils.f90            various helper routines
+        install.sh           installs code. setups directories and runs code
+
